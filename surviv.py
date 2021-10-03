@@ -4,7 +4,6 @@ import copy
 import sys
 import time
 
-
 class MyError(Exception):
     def __init__(self, err):
         self.err = err
@@ -127,6 +126,8 @@ class ModeNotification:
                 self.onChnage(copy.deepcopy(diff))
         else:
             print('please set onChange event')
+
+        self.oldData = newData
 
     def Start(self):
         if callable(self.onLoad):
