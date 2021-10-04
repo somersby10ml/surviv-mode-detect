@@ -1,7 +1,7 @@
 # surviv.io mode detect bot
- Bot to notify you when surviv.io mods change
-Supported languages: `as` `eu` `kr` `na` `sa`
-Basic cycle: 30 minutes
+ Bot to notify you when surviv.io mods change  
+Supported languages: `as` `eu` `kr` `na` `sa`  
+Basic cycle: 30 minutes  
 
 ## Requirements
 - Python 3x
